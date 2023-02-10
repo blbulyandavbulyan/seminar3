@@ -48,6 +48,25 @@
 %your_name% - ваше имя, указанное при настройке
 
 %your_email% - ваша почта указанная при настройке
+
+Опции:
+* опция --all, нужна для отображения всех коммитов на всех ветках, пример:
+    git log --all
+* опция --oneline нужна для более краткого отображения
+* эти две опции можно комбинировать пример: *git log --all --oneline* или *git log --oneline --all*
+
+В случае использования опции --oneline, вывод преобретает следующий вид:
+
+    8b1be8a (HEAD -> master) Info about command git diff added
+    9c392ae info about command git checkout added
+    496549c info about command git status added
+    957df9a Info about command git log added
+    4a249e5 Info about command git commit added
+    a6b67ea Info about command git add added
+    bc355f5 Info about command git init added
+    b3e20fe main header added
+    11eb173 Init commit
+Где, первые цифры буквы - первая часть хэша(так же может использоваться в качестве аргумента для команды *git checkout*), а текст - то самое сообщение, при создания коммита
 ## Получения статуса репозитория:
 Для получения статуса репозитория нужно выполнить команду:
 
