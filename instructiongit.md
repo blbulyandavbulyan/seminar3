@@ -127,3 +127,8 @@
   Где, newbranchname - имя новой ветки
 
 ### Удаление ветки
+Для удаления ветки нужно выполнить команду:
+
+    git branch -d branch_for_deleting
+
+Где branch_for_deleting - имя ветки для удаления
