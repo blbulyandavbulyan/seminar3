@@ -126,3 +126,4 @@
     git branch newbranchname
   Где, newbranchname - имя новой ветки
 
+### Удаление ветки
