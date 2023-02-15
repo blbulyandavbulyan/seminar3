@@ -132,3 +132,6 @@
     git branch -d branch_for_deleting
 
 Где branch_for_deleting - имя ветки для удаления
+Так же, если нужно удалить несколько веток, то можно просто перечислить их через пробел:
+
+    git branch -d first_branch_for_deleting second_branch_for_deleting
